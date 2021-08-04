@@ -1,0 +1,156 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.chat-application .chat-sidebar .chat-sidebar-list-wrapper li.active {
+    background: #ff864a !important;
+}
+
+.navbar-dark {
+    background: #ff864a !important;
+}
+
+.chat-application .chat-content .chat-body .chat-message {
+    color: #fff;
+    background: #ff864a;
+    box-shadow: 0 2px 4px 0 rgb(122 125 125 / 60%);
+}
+
+.btn-primary {
+	border-color: #fff;
+    background-color: #ec7439 !important;
+    color: #FFFFFF;
+}
+
+.chat-application .chat-window-wrapper .chat-start, .chat-application .chat-window-wrapper .chat-container {
+    background-color: #dfdbe557;
+    background-image: none
+}
+
+.btn-primary:focus, .btn-primary:active {
+    border-color: #ec7439 !important;
+    background-color: #ec7439 !important;
+    color: #FFF !important;
+}
+
+.btn-primary:hover {
+    border-color: #ec7439 !important;
+    background-color: #ff864ad6 !important;
+    color: #FFF !important;
+}
+
+.form-control:focus {
+    color: #4e5154;
+    border-color: #ec7439;
+}
+
+.main-menu.menu-light .navigation > li.active > a {
+    color: #ff864a;
+}
+
+.main-menu.menu-light .navigation li.active {
+    border-left: 4px solid #ff864a;
+}
+
+.main-menu.menu-light .navigation > li.open {
+    border-left: 4px solid #ff864a;
+}
+
+.main-menu.menu-light .navigation > li ul .active > a {
+    color: #ff864a;
+}
+
+html body .pace .pace-progress {
+    background: #bb4a13;
+}
+
+.header-navbar.navbar-dark.navbar-border {
+    border-bottom: 1px solid #ff864a;
+}
+
+.chat-application .chat-content .chat-left .chat-message {
+    color: #404e67;
+    background-color: #fafbfb;
+}
+
+a,
+a:hover {
+    color: #bb4a13;
+}
+
+.horizontal-menu .navbar-light ul#main-menu-navigation > li.active > a {
+    border-bottom: 2px solid #bb4a13;
+}
+
+.navbar-expand-sm {
+    justify-content: flex-end !important;
+}
+
+.chat-application .app-content {
+    border: 0
+}
+
+/* .chat-application.horizontal-layout .chat-window-wrapper .chat-start {
+    height: calc(var(--vh, 1vh) * 100 - 10.6rem);
+}
+
+.chat-application.horizontal-layout .chat-sidebar {
+    height: calc(var(--vh, 1vh) * 100 - 10.6rem);
+} */
+
+.chat-application.horizontal-layout .chat-window-wrapper .chat-container {
+    height: calc(var(--vh, 1vh) * 100 - 14.6rem);
+}
+
+.chat-application.horizontal-layout .chat-sidebar {
+    height: calc(var(--vh, 1vh) * 100 - 6rem);
+}
+
+@media (min-width: 576px) { 
+    .chat-application.horizontal-layout .chat-window-wrapper .chat-container {
+        height: calc(var(--vh, 1vh) * 100 - 14.6rem);
+    }
+
+    .chat-application.horizontal-layout .chat-sidebar {
+        height: calc(var(--vh, 1vh) * 100 - 6rem);
+    }
+}
+
+@media (min-width: 768px) { 
+    .chat-application.horizontal-layout .chat-window-wrapper .chat-container {
+        height: calc(var(--vh, 1vh) * 100 - 14.6rem);
+    }
+
+    .chat-application.horizontal-layout .chat-sidebar {
+        height: calc(var(--vh, 1vh) * 100 - 6rem);
+    }
+}
+
+@media (min-width: 992px) { 
+    .chat-application.horizontal-layout .chat-window-wrapper .chat-container {
+        height: calc(var(--vh, 1vh) * 100 - 14.6rem);
+    }
+
+    .chat-application.horizontal-layout .chat-sidebar {
+        height: calc(var(--vh, 1vh) * 100 - 6rem);
+    }
+}
+
+@media (min-width: 1200px) { 
+    .chat-application.horizontal-layout .chat-window-wrapper .chat-container {
+        height: calc(var(--vh, 1vh) * 100 - 14.6rem);
+    }
+
+    .chat-application.horizontal-layout .chat-sidebar {
+        height: calc(var(--vh, 1vh) * 100 - 6rem);
+    }
+}
+
+
